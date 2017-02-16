@@ -16,6 +16,7 @@ import javax.swing.Timer;
 public class Board extends JPanel implements ActionListener {
 	
 	private Timer timer;
+        int inget = 0;
 	int yPos = 0;
         int speed = 1;
 	int timre = 0;
